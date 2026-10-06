@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Travel Planner | Autonomous Multi-Agent Itinerary System</title>
+    <meta name="description" content="Build complete, optimized travel itineraries using specialized sub-agents for flights, hotels, activities, budget, and weather." />
+    <meta name="theme-color" content="#f8fafc" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['DM Sans', 'sans-serif'],
+              outfit: ['Outfit', 'sans-serif']
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body className="bg-slate-50 text-slate-900 antialiased selection:bg-blue-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
